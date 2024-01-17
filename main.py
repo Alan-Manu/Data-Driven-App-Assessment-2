@@ -20,7 +20,7 @@ def get_questions():
 
 ###############  GAME VARIABLES  ####################
 sc = 0  # To keep track of score
-q_list = []
+ques_list = []
 total_questions = 0
 correct_answers = 0
 wrong_answers = 0
