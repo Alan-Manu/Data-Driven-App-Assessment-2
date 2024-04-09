@@ -58,7 +58,7 @@ def res_true():
     else:
         if(ques['correct_answer'] == "True"):
             # Player is correct
-            score += 1
+            scores += 1
             correct_answers += 1
             card.config(bg='green')
             score.config(text=f"Score: {scores}")
